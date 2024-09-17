@@ -1,0 +1,53 @@
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.carouselInner {
+    display: flex;
+    width: 200%;
+    animation: scroll 20s linear infinite;
+}
+
+.skills {
+    display: flex;
+    flex: 1 0 auto;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.skill {
+    flex: 1 0 auto;
+    text-align: center;
+    margin: 0 25px;
+}
+
+.skillImageContainer img {
+    max-width: 50px;
+    height: auto;
+    filter: grayscale(100%); /* Convertit l'image en noir et blanc */
+    transition: filter 0.3s ease; /* Optionnel : ajout d'une transition pour l'effet hover */
+}
+
+.skillImageContainer img:hover {
+    filter: grayscale(0%); /* Optionnel : revient à la couleur d'origine au survol */
+}
+
+.skill p {
+    font-size: 25px;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

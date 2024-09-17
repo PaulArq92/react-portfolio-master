@@ -1,0 +1,100 @@
+.container {
+    position: relative;
+    border-radius: 15px;
+    padding-top: 40px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titlePage {
+    font-family: var(--font-roboto);
+    color: var(--color-text);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content {
+    font-size: 20px;
+    font-family: var(--font-roboto);
+    text-align: center;
+    background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
+    -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
+    color: transparent; /* Rendre le texte transparent pour voir le dégradé */
+    line-height: 1.5; /* Ajuste la hauteur de ligne si nécessaire */
+}
+
+.introduction {
+    margin-bottom: 40px; /* Espacement entre l'introduction et les items */
+}
+
+.aboutItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Aligne les containers à gauche */
+}
+
+.aboutItem {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left; /* Aligne le texte à gauche */
+    display: flex; /* Utilise flexbox pour aligner les éléments à l'intérieur */
+    flex-direction: column;
+    align-items: center; /* Aligne verticalement les éléments au centre */
+    gap: 15px; /* Espacement entre les éléments */
+    flex: 1 0 200px; /* Flexibilité pour les containers */
+    max-width: 300px; /* Limite la largeur des containers */
+}
+
+.aboutItem img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%) contrast(30%);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
+    -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
+    color: transparent; /* Rendre le texte transparent pour voir le dégradé */
+    font-family: var(--font-roboto);
+    font-size: 1.2rem;
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+.description {
+    font-family: var(--font-roboto);
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    margin: 0; /* Supprime les marges par défaut */
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .aboutItems {
+        margin-top: 29px;
+        flex-direction: column; /* Empile les items verticalement sur les petits écrans */
+        align-items: center; /* Centre les containers horizontalement sur petits écrans */
+    }
+
+    .aboutItem {
+        margin-bottom: 20px; /* Espacement entre les items */
+        text-align: center; /* Centre le texte dans les petits écrans */
+        display: block; /* Affiche les éléments en mode bloc pour l'alignement vertical */
+    }
+}

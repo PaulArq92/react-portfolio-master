@@ -1,0 +1,54 @@
+{
+  "fr": [
+    {
+      "date": "2022",
+      "title": "Stagiaire Développeur Fullstack",
+      "description": "Travail sur des projets de développement full-stack chez l'entreprise XYZ.",
+      "logoSrc": "logos/fullstack.png"
+    },
+    {
+      "date": "2021",
+      "title": "Stagiaire UX/UI Design",
+      "description": "Conception d'interfaces utilisateur et amélioration de l'UX pour des applications mobiles.",
+      "logoSrc": "logos/ux.png"
+    },
+    {
+      "date": "2020",
+      "title": "Licence en Informatique",
+      "description": "Diplômé en Informatique de l'université ABC.",
+      "logoSrc": "logos/university.png"
+    },
+    {
+      "date": "2019",
+      "title": "Stagiaire Développeur Frontend",
+      "description": "Développement de pages web réactives et travail sur les composants UI.",
+      "logoSrc": "logos/frontend.png"
+    }
+  ],
+  "en": [
+    {
+      "date": "2022",
+      "title": "Fullstack Developer Intern",
+      "description": "Worked on full-stack web development projects at XYZ company.",
+      "logoSrc": "logos/fullstack.png"
+    },
+    {
+      "date": "2021",
+      "title": "UX/UI Design Intern",
+      "description": "Designed user interfaces and improved UX for mobile applications.",
+      "logoSrc": "logos/ux.png"
+    },
+    {
+      "date": "2020",
+      "title": "Bachelor's Degree in Computer Science",
+      "description": "Graduated with a degree in Computer Science from ABC University.",
+      "logoSrc": "logos/university.png"
+    },
+    {
+      "date": "2019",
+      "title": "Frontend Developer Intern",
+      "description": "Developed responsive web pages and worked on UI components.",
+      "logoSrc": "logos/frontend.png"
+    }
+  ]
+}

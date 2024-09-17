@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.languageList, .hobbiesList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.languageItem, .hobbyItem {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.languageName {
+    font-weight: bold;
+}
+
+.languageLevel {
+    font-style: italic;
+}

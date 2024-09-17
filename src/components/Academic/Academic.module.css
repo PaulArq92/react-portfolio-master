@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+.academicJourney {
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: var(--color-text);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: start;
+    color: var(--color-text);
+    font-family: var(--font-roboto);
+}
+
+.school {
+    font-family: var(--font-roboto);
+    margin-bottom: 30px;
+    border-left: 2px solid var(--color-primary);
+    padding-left: 15px;
+    background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
+    -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
+    color: transparent; /* Rendre le texte transparent pour voir le dégradé */
+}
+
+.schoolName {
+    font-family: var(--font-roboto);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--color-secondary);
+}
+
+.dates {
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.details {
+    font-family: var(--font-roboto);
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.details li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.additionalEducation {
+    margin-top: 40px;
+    padding-left: 15px;
+    border-left: 2px solid var(--color-primary);
+}
