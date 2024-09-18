@@ -10,8 +10,8 @@ export const HomePage = () => {
     const t = translations[language].homePage; // Obtenir les traductions du menu selon la langue
 
     const cvLink = language === "fr"
-        ? "/public/CV_Paul_Arquier_FR.pdf"
-        : "/public/Resume_Paul_Arquier_EN.pdf";
+        ? "/CV_Paul_Arquier_FR.pdf"
+        : "/Resume_Paul_Arquier_EN.pdf";
 
     return (
         <section className={styles.container}>
