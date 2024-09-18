@@ -59,7 +59,7 @@ export const translations = {
             linkedin: "linkedin",
             github: "github",
         },
-        hero: {
+        homePage: {
             welcome: "Hello and welcome !",
             introduction: "I’m a versatile developer working across fullstack projects, data, and technical roles with a broad, problem-solving mindset.",
             download: "Download my resume",

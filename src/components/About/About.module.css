@@ -21,7 +21,7 @@
     background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
     -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
     color: transparent; /* Rendre le texte transparent pour voir le dégradé */
-    line-height: 1.5; /* Ajuste la hauteur de ligne si nécessaire */
+    line-height: 1.5;
 }
 
 .introduction {
@@ -88,13 +88,13 @@
 
     .aboutItems {
         margin-top: 29px;
-        flex-direction: column; /* Empile les items verticalement sur les petits écrans */
-        align-items: center; /* Centre les containers horizontalement sur petits écrans */
+        flex-direction: column;
+        align-items: center;
     }
 
     .aboutItem {
-        margin-bottom: 20px; /* Espacement entre les items */
-        text-align: center; /* Centre le texte dans les petits écrans */
-        display: block; /* Affiche les éléments en mode bloc pour l'alignement vertical */
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
     }
 }

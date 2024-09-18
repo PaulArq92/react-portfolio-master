@@ -32,10 +32,14 @@ export const Navbar = () => {
                     onClick={() => setMenuOpen(false)}
                 >
                     <li>
-                        <a href="https://www.linkedin.com/in/paul-arquier-283957195/" target="_blank">{t.linkedin}</a>
+                        <a href="https://www.linkedin.com/in/paul-arquier-283957195/" target="_blank" rel="noopener noreferrer">
+                            {t.linkedin}
+                        </a>
                     </li>
                     <li>
-                        <a href="https://github.com/PauloLaPopo?tab=repositories" target="_blank">{t.github}</a>
+                        <a href="https://github.com/PauloLaPopo?tab=repositories" target="_blank" rel="noopener noreferrer">
+                            {t.github}
+                        </a>
                     </li>
                     <li>
                         <a onClick={toggleLanguage} className={styles.languageToggle}>
