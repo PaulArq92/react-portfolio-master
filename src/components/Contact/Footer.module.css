@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    padding: 58px 10%;
+    padding: 15px 10%;
     gap: 10px;
 }
 
@@ -17,12 +17,18 @@
     letter-spacing: 2px;
 }
 
+.collumnFooter {
+    display: flex;
+    flex-direction: column;
+}
+
 .links {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     list-style: none;
     gap: 55px;
+    margin-bottom: 15px;
 }
 
 .link {
@@ -42,6 +48,20 @@
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+.location {
+    font-family: var(--font-roboto);
+    color: var(--color-primary);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.copyright {
+    font-family: var(--font-roboto);
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 830px) {

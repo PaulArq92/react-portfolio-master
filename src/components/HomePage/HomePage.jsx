@@ -1,13 +1,13 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 
-import styles from "./Hero.module.css";
+import styles from "./HomePage.module.css";
 import { getImageUrl } from "../../utils";
-import {translations} from "../../data/translations.js";
-import {LanguageContext} from "../../LanguageContext.jsx";
+import { translations } from "../../data/translations.js";
+import { LanguageContext } from "../../LanguageContext.jsx";
 
-export const Hero = () => {
+export const HomePage = () => {
     const { language } = useContext(LanguageContext);
-    const t = translations[language].hero; // Obtenir les traductions du menu selon la langue
+    const t = translations[language].homePage; // Obtenir les traductions du menu selon la langue
 
     const cvLink = language === "fr"
         ? "/assets/resume/CV_Paul_Arquier_FR.pdf"
@@ -18,7 +18,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <img
                     src={getImageUrl("hero/portrait.png")}
-                    alt="Hero image of me"
+                    alt="HomePage image of me"
                     className={styles.heroImg}
                 />
                 <h1 className={styles.title}>{t.welcome}</h1>
@@ -27,7 +27,8 @@ export const Hero = () => {
                 </p>
                 <a
                     href={cvLink}
-                    download={`CV_Paul_Arquier_${language.toUpperCase()}.pdf`}
+                    target="_blank"
+                    rel="noopener noreferrer"  // Ajoute la sécurité pour les nouveaux onglets
                     className={styles.downloadBtn}>
                     {t.download}
                 </a>

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    height: 200px; /* Ajuste la hauteur selon tes besoins */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.verticalLine {
+    position: absolute;
+    top: 0;
+    height: calc(25% + 20px); /* Ajuste la hauteur pour s'arrêter juste au-dessus du titre */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    background-color: var(--color-text); /* Couleur de la ligne verticale */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Pour superposer correctement le contenu au-dessus de la ligne */
+}
+
+.title {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    margin-top: 110px;
+    color: var(--color-secondary);
+    position: relative; /* Pour s'assurer que le titre est au-dessus de la ligne */
+}
+
+.contactButton {
+    text-decoration: none;
+    background-color: var(--color-dark);
+    color: var(--color-primary);
+    border-radius: 100px;
+    font-size: var(--font-size-medium);
+    padding: 25px 26px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Ajout des transitions */
+}
+
+.contactButton:hover {
+    transform: scale(1.05); /* Agrandissement léger au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Augmentation de l'ombre portée au survol */
+}

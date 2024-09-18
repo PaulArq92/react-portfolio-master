@@ -1,54 +1,114 @@
 {
   "fr": [
     {
+      "date": "2024",
+      "title": "Consultant IT - Solutec",
+      "description": "Acquisition et renforcement de nouvelles compétences suite à des formations et des certifications (Spring, SQL, Data, MariaDB).",
+      "logoSrc": "history/solutec.png"
+    },
+    {
+      "date": "2023",
+      "title": "Voyage",
+      "description": "Voyage en sac à dos de 6 mois à travers la Colombie, le Pérou et les États-Unis. Expérience immersive qui a renforcé mon adaptabilité, mon ouverture culturelle et mon niveau d'anglais et d'espagnol. Capacité à gérer des situations imprévues, tout en développant un sens aigu de l'organisation et de la communication interculturelle.",
+      "logoSrc": "history/trip.avif"
+    },
+    {
+      "date": "2023",
+      "title": "Stage Ingénieur Projet - Coreoz",
+      "description": "Développement d'applications web/mobiles fullstack (React, Typescript, Spring, Java, SQL, Git). J'ai participé à toutes les phases des projets et collaboré avec des experts en UX/UI Design et chefs de projet, enrichissant ainsi ma vision globale du développement. Cette expérience m'a permis de maîtriser la création d'applications de qualité tout en comprenant l'importance des différents rôles et de l'expérience utilisateur.",
+      "logoSrc": "history/coreoz.jpg"
+    },
+    {
       "date": "2022",
-      "title": "Stagiaire Développeur Fullstack",
-      "description": "Travail sur des projets de développement full-stack chez l'entreprise XYZ.",
-      "logoSrc": "logos/fullstack.png"
+      "title": "Erasmus à l'Université d'Oslo (UiO)",
+      "description": "Approfondissement de mes connaissances en méthodologie Agile, en traitement du langage naturel (NLP) à travers des projets pratiques en Python, et en analyse d'images avec des projets pratiques en Matlab.",
+      "logoSrc": "history/uio.png"
+    },
+    {
+      "date": "2022",
+      "title": "Stage développeur d'application hybride - Thales",
+      "description": "Développement d'une application hybride (Web-Androïd) from scratch. Benchmark des technologies à utiliser, maquettage avec Figma et développement avec Ionic, React, Typescript et Redux.",
+      "logoSrc": "history/thales.png"
+    },
+    {
+      "date": "2022",
+      "title": "ECE Paris Cycle ingénieur",
+      "description": "Formation d'ingénieur spécialisée en conception et industrialisation de produits numériques. Compétences en technologies innovantes (Fullstack, IA, IoT, Cloud), UX/UI design, gestion de projet et méthodes agiles. Formation polyvalente avec des rôles de Product Owner, Développeur Fullstack et Consultant, préparant à la gestion d'équipes et à l'entrepreneuriat.",
+      "logoSrc": "history/ece.jpg"
     },
     {
       "date": "2021",
-      "title": "Stagiaire UX/UI Design",
-      "description": "Conception d'interfaces utilisateur et amélioration de l'UX pour des applications mobiles.",
-      "logoSrc": "logos/ux.png"
+      "title": "Echange à l'Université de Malte",
+      "description": "J'ai suivi des cours en anglais sur le développement d'applications Fullstack en .NET, l'électronique et la gestion de projet. Le programme comprenait un apprentissage pratique avec un projet final en développement Fullstack.",
+      "logoSrc": "history/um.png"
     },
     {
-      "date": "2020",
-      "title": "Licence en Informatique",
-      "description": "Diplômé en Informatique de l'université ABC.",
-      "logoSrc": "logos/university.png"
+      "date": "2021",
+      "title": "Stage Ouvrier BTP",
+      "description": "Ouvrier BTP sur chantier dans Paris dans un contexte international, responsable de la mise en œuvre de structures, manutention et utilisation d’outils. Travail en équipe multiculturelle, respect des normes de sécurité.",
+      "logoSrc": "history/eurodecor.png"
     },
     {
-      "date": "2019",
-      "title": "Stagiaire Développeur Frontend",
-      "description": "Développement de pages web réactives et travail sur les composants UI.",
-      "logoSrc": "logos/frontend.png"
+      "date": "2018",
+      "title": "ECE Paris Cycle préparatoire",
+      "description": "Formation axée sur l'acquisition des compétences scientifiques et techniques pour la carrière d'ingénieur, avec un équilibre entre théorie et pratique. Participation à des projets innovants (C, C++, Java, IoT) dès la première année et initiation aux spécialisations techniques. Pédagogie variée incluant cours interactifs, travaux dirigés et projets autonomes",
+      "logoSrc": "history/ece.jpg"
     }
   ],
   "en": [
     {
+      "date": "2024",
+      "title": "IT Consultant - Solutec",
+      "description": "Acquired and enhanced new skills through training and certifications (Spring, SQL, Data, MariaDB).",
+      "logoSrc": "history/solutec.png"
+    },
+    {
+      "date": "2023",
+      "title": "Travel",
+      "description": "6-month backpacking trip through Colombia, Peru, and the United States. Immersive experience that strengthened my adaptability, cultural openness, and proficiency in English and Spanish. Developed skills in handling unexpected situations, organization, and intercultural communication.",
+      "logoSrc": "history/trip.avif"
+    },
+    {
+      "date": "2023",
+      "title": "Project Engineer Internship - Coreoz",
+      "description": "Developed fullstack web/mobile applications (React, Typescript, Spring, Java, SQL, Git). Participated in all project phases and collaborated with UX/UI Design experts and project managers, enriching my overall development perspective. Mastered quality application creation and understood the importance of various roles and user experience.",
+      "logoSrc": "history/coreoz2.jpg"
+    },
+    {
       "date": "2022",
-      "title": "Fullstack Developer Intern",
-      "description": "Worked on full-stack web development projects at XYZ company.",
-      "logoSrc": "logos/fullstack.png"
+      "title": "Erasmus at the University of Oslo (UiO)",
+      "description": "Deepened knowledge in Agile methodology, natural language processing (NLP) through practical Python projects, and image analysis with Matlab projects.",
+      "logoSrc": "history/uio.png"
+    },
+    {
+      "date": "2022",
+      "title": "Hybrid Application Developer Internship - Thales",
+      "description": "Developed a hybrid application (Web-Android) from scratch. Conducted technology benchmarking, created mockups with Figma, and developed with Ionic, React, Typescript, and Redux.",
+      "logoSrc": "history/thales.png"
+    },
+    {
+      "date": "2022",
+      "title": "ECE Paris Engineering Cycle",
+      "description": "Engineering training specialized in the design and industrialization of digital products. Skills in innovative technologies (Fullstack, AI, IoT, Cloud), UX/UI design, project management, and agile methods. Versatile training with roles as Product Owner, Fullstack Developer, and Consultant, preparing for team management and entrepreneurship.",
+      "logoSrc": "history/ece.jpg"
     },
     {
       "date": "2021",
-      "title": "UX/UI Design Intern",
-      "description": "Designed user interfaces and improved UX for mobile applications.",
-      "logoSrc": "logos/ux.png"
+      "title": "Exchange at the University of Malta",
+      "description": "Completed courses in English on Fullstack application development in .NET, electronics, and project management. Program included practical learning with a final project in Fullstack development.",
+      "logoSrc": "history/coreoz.jpg"
     },
     {
-      "date": "2020",
-      "title": "Bachelor's Degree in Computer Science",
-      "description": "Graduated with a degree in Computer Science from ABC University.",
-      "logoSrc": "logos/university.png"
+      "date": "2021",
+      "title": "Construction Worker Internship",
+      "description": "Worked as a construction worker on an international site in Paris, responsible for structure implementation, material handling, and tool use. Collaborated in a multicultural team while adhering to safety standards.",
+      "logoSrc": "history/eurodecor.png"
     },
     {
-      "date": "2019",
-      "title": "Frontend Developer Intern",
-      "description": "Developed responsive web pages and worked on UI components.",
-      "logoSrc": "logos/frontend.png"
+      "date": "2018",
+      "title": "ECE Paris Preparatory Cycle",
+      "description": "Focused on acquiring scientific and technical skills for an engineering career, balancing theory and practice. Participated in innovative projects (C, C++, Java, IoT) from the first year and was introduced to technical specializations. Varied pedagogy including interactive courses, tutorials, and independent projects.",
+      "logoSrc": "history/ece.jpg"
     }
   ]
 }

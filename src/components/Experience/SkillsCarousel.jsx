@@ -27,6 +27,17 @@ export const SkillsCarousel = () => {
                         </div>
                     ))}
                 </div>
+                {/* Clone the elements to create a smooth infinite scroll */}
+                <div className={styles.skills}>
+                    {skills.map((skill, id) => (
+                        <div key={id + skills.length * 2} className={styles.skill}>
+                            <div className={styles.skillImageContainer}>
+                                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                            </div>
+                            <p>{skill.title}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </section>
     );

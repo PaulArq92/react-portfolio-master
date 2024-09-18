@@ -8,14 +8,14 @@
 
 .carouselInner {
     display: flex;
-    width: 200%;
-    animation: scroll 20s linear infinite;
+    width: 300%;
+    animation: scroll 60s linear infinite;
 }
 
 .skills {
     display: flex;
     flex: 1 0 auto;
-    padding: 10px;
+    padding: 10px 0;
     align-items: flex-end;
 }
 
@@ -28,12 +28,12 @@
 .skillImageContainer img {
     max-width: 50px;
     height: auto;
-    filter: grayscale(100%); /* Convertit l'image en noir et blanc */
-    transition: filter 0.3s ease; /* Optionnel : ajout d'une transition pour l'effet hover */
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
 }
 
 .skillImageContainer img:hover {
-    filter: grayscale(0%); /* Optionnel : revient à la couleur d'origine au survol */
+    filter: grayscale(0%);
 }
 
 .skill p {
@@ -48,6 +48,6 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }

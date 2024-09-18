@@ -1,28 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styles from './LanguagesAndHobbies.module.css';
+import othersData from "../../data/others.json";
+import { LanguageContext } from "../../LanguageContext.jsx";
+import {translations} from "../../data/translations.js";
 
 export const LanguagesAndHobbies = () => {
-    const languages = [
-        { name: 'Français', level: 'Langue maternelle' },
-        { name: 'Anglais', level: 'Courant (C1)' },
-        { name: 'Espagnol', level: 'Intermédiaire (B2)' },
-        { name: 'Polonais', level: 'Débutant (A1)' },
-    ];
+    const { language } = useContext(LanguageContext); // Utilisation du contexte
 
-    const hobbies = [
-        'Voyages',
-        'Développement web',
-        'Photographie',
-        'Jeux vidéo',
-        'Lecture'
-    ];
+    const t = translations[language].languagesAndHobbies;
+    const data = othersData[language];
 
     return (
         <section className={styles.container}>
             <div className={styles.languagesSection}>
-                <h3 className={styles.title}>Langues</h3>
+                <h3 className={styles.title}>{t.titleLanguages}</h3>
                 <ul className={styles.languageList}>
-                    {languages.map((language, index) => (
+                    {data.languages.map((language, index) => (
                         <li key={index} className={styles.languageItem}>
                             <span className={styles.languageName}>{language.name}</span> -
                             <span className={styles.languageLevel}> {language.level}</span>
@@ -32,10 +25,13 @@ export const LanguagesAndHobbies = () => {
             </div>
 
             <div className={styles.hobbiesSection}>
-                <h3 className={styles.title}>Hobbies</h3>
+                <h3 className={styles.title}>{t.titleHobbies}</h3>
                 <ul className={styles.hobbiesList}>
-                    {hobbies.map((hobby, index) => (
-                        <li key={index} className={styles.hobbyItem}>{hobby}</li>
+                    {data.hobbies.map((hobby, index) => (
+                        <li key={index} className={styles.hobbyItem}>
+                            <span className={styles.hobbyName}>{hobby.name}</span> -
+                            <span className={styles.hobbyExample}> {hobby.example}</span>
+                        </li>
                     ))}
                 </ul>
             </div>

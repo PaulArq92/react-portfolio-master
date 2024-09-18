@@ -7,14 +7,17 @@ export const translations = {
             experiences: "Expériences",
             projects: "Projets",
             contact: "Contact",
-            toggleLang: "EN",  // Le bouton affichera "EN" pour passer à l'anglais
+            toggleLang: "EN",
+            linkedin: "linkedin",
+            github: "github",
         },
-        hero: {
+        homePage: {
             welcome: "Bonjour et bienvenue !",
             introduction: "Développeur polyvalent, je travaille aussi bien sur des projets fullstack que dans la data ou des rôles techniques avec une vision globale.",
             download: "Télécharger mon CV",
         },
         about: {
+            title: "Qui suis-je ?",
             introduction: "Je me considère comme un développeur avec un profil assez varié. J'ai eu l'occasion de toucher à différentes technologies, que ce soit sur le front, le back, ou même la data. Grâce à mes connaissances en UX design, je pense aussi à l'utilisateur final dans chacune de mes réalisations. Je suis à l'aise autant sur la partie technique que fonctionnelle, et j'aime pouvoir intervenir à différents niveaux sur les projets.",
             uxTitle: "UX & UI Designer",
             uxDescription: "Concevoir des interfaces utilisateur intuitives et visuellement attrayantes.",
@@ -25,35 +28,24 @@ export const translations = {
             consultantTitle: "Tech Consultant",
             consultantDescription: "Fournir des conseils et des solutions techniques pour divers projets.",
         },
-        academic: {
-            title: "Parcours académique",
-            school1: "ECE Paris - Cycle préparatoire",
-            dates1: "Septembre 2018 - Juillet 2021",
-            description1: "Formation de 2 ans axée sur l'acquisition des compétences scientifiques et techniques pour la carrière d'ingénieur, avec un équilibre entre théorie et pratique. Participation à des projets innovants (robotique, Agile Scrum) dès la première année et initiation aux spécialisations techniques. Pédagogie variée incluant cours interactifs, travaux dirigés et projets autonomes pour une préparation directe à la vie professionnelle.",
-            school2: "Echange à l'université de Malte",
-            dates2: "Février 2021 - Juillet 2021",
-            description2: "J'ai suivi des cours en anglais sur le développement d'applications Fullstack en .NET, l'électronique et la gestion de projet. Le programme comprenait un apprentissage pratique avec un projet final en développement Fullstack.",
-            school3: 'ECE Paris - Cyclé ingénieur Master Objets Connectés Réseaux et Services',
-            dates3: "Septembre 2022 - Juillet 2023",
-            descriptions3: "Formation d'ingénieur spécialisée dans la conception, le développement et l'industrialisation de produits numériques. Compétences développées en technologies innovantes (Fullstack, IA, IoT, Cloud), UX/UI design, gestion de projet et méthodes agiles. Formation polyvalente avec des rôles tels que Product Owner, Développeur Fullstack, et Consultant en transformation digitale, préparant à la gestion d'équipes et à l'entrepreneuriat.",
-            school4: "Echange à l'Université d'Oslo (UiO)",
-            dates4: "Août 2022 - Décembre 2022",
-            description4: "J'ai étudié à l'Université d'Oslo (classée 127e mondialement), où j'ai approfondi mes connaissances en méthodologie Agile, en traitement du langage naturel (NLP) à travers des projets pratiques en Python, et en analyse d'images avec des projets pratiques en Matlab. Cette expérience a enrichi mon expertise technique et ma capacité à travailler dans un environnement académique international.",
-            certificationTitle: "Certifications et formations complémentaires",
-            certificationsList: "Introduction à l\'intelligence artificielle, Pensée Créative : Techniques et Outils pour Réussir, Psychologie Sociale",
+        timeline: {
+            title: "Parcours",
         },
-        experiences: {
-            title: "Expériences",
-            company1: "Thales",
-            dates1: "Avril 2022 - Août 2022",
-            description1: "test",
-            company2: "Coreoz",
-            dates2: "Janvier 2023 - Juillet 2023",
-            description2: "",
-            company3: "Solutec",
-            dates3: "Juin 2024 - Présent",
-            description3: "",
+        contactSection: {
+            title: "Une question ?",
+            buttonLabel: "Contactez moi !",
         },
+        languagesAndHobbies: {
+            titleLanguages: "Langues",
+            titleHobbies: "Hobbies",
+        },
+        footer: {
+            location: "Situé à Paris, France",
+            copyright: "Copyright © Portfolio, pensé et développé par Paul ARQUIER 2024 | Version - 1.0",
+            email: "p.arquier7@gmail.com",
+            github: "github.com/paulArquier",
+            linkedin: "linkedin.com/paul-arquier",
+        }
     },
     en: {
         navbar: {
@@ -63,7 +55,9 @@ export const translations = {
             experiences: "Experiences",
             projects: "Projects",
             contact: "Contact",
-            toggleLang: "FR",  // Le bouton affichera "FR" pour passer au français
+            toggleLang: "FR",
+            linkedin: "linkedin",
+            github: "github",
         },
         hero: {
             welcome: "Hello and welcome !",
@@ -71,6 +65,7 @@ export const translations = {
             download: "Download my resume",
         },
         about: {
+            title: "How am I ?",
             introduction: "I see myself as a developer with a pretty diverse skill set. I’ve worked with different technologies, whether it's frontend, backend, or even data. With my UX design knowledge, I always keep the end-user experience in mind in everything I build. I’m comfortable working on both the technical and functional sides of projects, and I enjoy being able to contribute at various levels.",
             uxTitle: "UX & UI Designer",
             uxDescription: "Designing intuitive and visually appealing user interfaces.",
@@ -81,34 +76,23 @@ export const translations = {
             consultantTitle: "Tech Consultant",
             consultantDescription: "Providing technical advice and solutions for various projects.",
         },
-        academic: {
-            title: "Academic background",
-            school1: "ECE Paris - Preparatory cycle",
-            dates1: "September 2018 - July 2021",
-            description1: "A program focused on developing the scientific and technical skills required for an engineering career, with a balance between theory and practice. Participation in innovative projects (robotics, Agile Scrum) from the first year and introduction to technical specializations. Varied teaching methods include interactive classes, practical work, and autonomous projects to prepare for professional life.",
-            school2: "Exchange program at the University of Malta",
-            dates2: "February 2021 - July 2021",
-            description2: "Completed courses in English on Fullstack application development with .NET, electronics, and project management. The program included hands-on learning with a final Fullstack development project.",
-            school3: "ECE Paris - Master's degree : Product Engineering & Innovation",
-            dates3: "September 2022 - July 2023",
-            descriptions3: "Engineering program specialized in the design, development, and industrialization of digital products. Skills developed in innovative technologies (Fullstack, AI, IoT, Cloud), UX/UI design, project management, and agile methodologies. Versatile training leading to roles such as Product Owner, Fullstack Developer, and Digital Transformation Consultant, preparing students for team management and entrepreneurship.",
-            school4: "Exchange program at the University of Oslo (UiO)",
-            dates4: "August 2022 - December 2022",
-            description4: "Completed courses in English at the University of Oslo (ranked 127th globally), where I deepened my knowledge of Agile methodology, Natural Language Processing (NLP) with practical Python projects, and Image Analysis through hands-on projects in Matlab. This experience enhanced both my technical expertise and my ability to work in an international, academic environment.",
-            certificationTitle: "Certifications and additional training",
-            certificationsList: "Introduction to Artificial Intelligence, Creative Thinking: Techniques and Tools for Success, Social Psychology",
+        timeline: {
+            title: "Course"
         },
-        experiences: {
-            title: "Experiences",
-            company1: "Thales",
-            dates1: "Avril 2022 - Août 2022",
-            description1: "",
-            company2: "Coreoz",
-            dates2: "Janvier 2023 - Juillet 2023",
-            description2: "",
-            company3: "Solutec",
-            dates3: "Juin 2024 - Présent",
-            description3: "",
+        contactSection: {
+            title: "Any question ?",
+            buttonLabel: "Contact me !",
         },
+        languagesAndHobbies: {
+            titleLanguages: "Languages",
+            titleHobbies: "Hobbies",
+        },
+        footer: {
+            location: "Based in Paris, France",
+            copyright: "Copyright © Portfolio, designed and developed by Paul ARQUIER 2024 | Version - 1.0",
+            email: "p.arquier7@gmail.com",
+            github: "github.com/paulArquier",
+            linkedin: "linkedin.com/paul-arquier",
+        }
     },
 };

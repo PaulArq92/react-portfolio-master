@@ -1,0 +1,34 @@
+{
+  "fr": {
+    "languages": [
+      { "name": "Français", "level": "Langue maternelle" },
+      { "name": "Anglais", "level": "Courant (C1)" },
+      { "name": "Espagnol", "level": "Opérationnel (B2)" },
+      { "name": "Polonais", "level": "Intermédiaire (B1)" }
+    ],
+    "hobbies": [
+      { "name":  "Voyage", "example": "Malte, Norvège, Colombie, Pérou, USA, Pologne"},
+      { "name":  "Lecture", "example": "Romans et Fiction, Développement Personnel et Spiritualité, Actualités et Technologie"},
+      { "name":  "Jeux Vidéo", "example": "League of Legends, Call of Duty, Fifa, World of Tanks"},
+      { "name":  "Sports", "example": "Practicing football and gym, watch sports"},
+      { "name":  "Musique", "example": "Listening music, going to music events, edit and create music with FL Studio"},
+      { "name":  "Montage Vidéo", "example": "Create video with Adobe Premiere Pro"}
+    ]
+  },
+  "en": {
+    "languages": [
+      { "name": "French", "level": "Native" },
+      { "name": "English", "level": "Fluent (C1)" },
+      { "name": "Spanish", "level": "Operational (B2)" },
+      { "name": "Polish", "level": "Intermediate (B1)" }
+    ],
+    "hobbies": [
+      { "name":  "Traveling", "example": "Malte, Norway, Colombia, Peru, USA, Poland"},
+      { "name":  "Reading", "example": "Novels and Fiction, Personal Development and Spirituality, News and Technology"},
+      { "name":  "Video Games", "example": "League of Legends, Call of Duty, Fifa, World of Tanks"},
+      { "name":  "Sports", "example": "Practicing football and gym, watch sports"},
+      { "name":  "Music", "example": "Listening music, going to music events, edit and create music with FL Studio"},
+      { "name":  "Video Montage", "example": "Create video with Adobe Premiere Pro"}
+    ]
+  }
+}

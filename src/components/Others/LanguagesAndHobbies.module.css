@@ -1,23 +1,29 @@
+@import "../../vars.css";
+
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-    background-color: #1a1a1a;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     color: white;
 }
 
+.languagesSection, .hobbiesSection {
+    background-color: var(--color-dark);
+    padding: 15px;
+}
+
 .title {
-    font-size: 1.8em;
+    font-family: var(--font-roboto);
+    color: var(--color-secondary);
+    font-size: 22px;
     margin-bottom: 10px;
     font-weight: 600;
-    color: #fff;
 }
 
 .languageList, .hobbiesList {
@@ -31,10 +37,21 @@
     margin-bottom: 10px;
 }
 
-.languageName {
-    font-weight: bold;
+.hobbyItem {
+    font-family: var(--font-roboto);
+    color: var(--color-secondary);
+    font-size: 17px;
 }
 
-.languageLevel {
+.languageName, .hobbyName {
+    font-family: var(--font-roboto);
+    color: var(--color-secondary);
+    font-size: 17px;
+}
+
+.languageLevel, .hobbyExample {
+    font-family: var(--font-roboto);
+    color: var(--color-primary);
     font-style: italic;
+    font-size: 14px;
 }

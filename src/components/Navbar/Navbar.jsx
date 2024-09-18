@@ -6,10 +6,10 @@ import {translations} from "../../data/translations.js";
 import {LanguageContext} from "../../LanguageContext.jsx";
 
 export const Navbar = () => {
-    const { language, toggleLanguage } = useContext(LanguageContext); // Utilisation du contexte
+    const { language, toggleLanguage } = useContext(LanguageContext);
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const t = translations[language].navbar; // Obtenir les traductions du menu selon la langue
+    const t = translations[language].navbar;
 
     return (
         <nav className={styles.navbar}>
@@ -32,10 +32,10 @@ export const Navbar = () => {
                     onClick={() => setMenuOpen(false)}
                 >
                     <li>
-                        <a href="https://www.linkedin.com/in/paul-arquier-283957195/" target="_blank">linkedin</a>
+                        <a href="https://www.linkedin.com/in/paul-arquier-283957195/" target="_blank">{t.linkedin}</a>
                     </li>
                     <li>
-                        <a href="https://github.com/PauloLaPopo?tab=repositories" target="_blank">github</a>
+                        <a href="https://github.com/PauloLaPopo?tab=repositories" target="_blank">{t.github}</a>
                     </li>
                     <li>
                         <a onClick={toggleLanguage} className={styles.languageToggle}>

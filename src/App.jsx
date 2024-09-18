@@ -1,27 +1,26 @@
 import styles from './App.module.css';
 import {Navbar} from "./components/Navbar/Navbar.jsx";
-import {Hero} from "./components/Hero/Hero.jsx";
+import {HomePage} from "./components/HomePage/HomePage.jsx";
 import {About} from "./components/About/About.jsx";
-import {Experience} from "./components/Experience/Experience.jsx";
-import {Projects} from "./components/Projects/Projects.jsx";
-import {Contact} from "./components/Contact/Contact.jsx";
+import {Footer} from "./components/Contact/Footer.jsx";
 import {LanguageProvider} from "./LanguageContext.jsx";
-import {Academic} from "./components/Academic/Academic.jsx";
 import {SkillsCarousel} from "./components/Experience/SkillsCarousel.jsx";
 import {Timeline} from "./components/Experience/Timeline.jsx";
 import {LanguagesAndHobbies} from "./components/Others/LanguagesAndHobbies.jsx";
+import {ContactSection} from "./components/Contact/ContactSection.jsx";
 
 function App() {
     return (
         <LanguageProvider>
             <div className={styles.App}>
                 <Navbar/>
-                <Hero/>
+                <HomePage/>
                 <SkillsCarousel />
                 <About/>
                 <Timeline />
                 <LanguagesAndHobbies />
-                <Contact/>
+                <ContactSection />
+                <Footer/>
             </div>
         </LanguageProvider>
     )

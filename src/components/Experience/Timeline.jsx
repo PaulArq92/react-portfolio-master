@@ -3,13 +3,16 @@ import styles from "./Timeline.module.css";
 import { getImageUrl } from "../../utils";
 import {LanguageContext} from "../../LanguageContext.jsx";
 import timelineData from "../../data/timelineData.json";
+import {translations} from "../../data/translations.js";
 
 export const Timeline = () => {
-    const {language} = useContext(LanguageContext); // Utilisation du contexte
+    const {language} = useContext(LanguageContext);
     const data = timelineData[language];
+    const t = translations[language].timeline;
+
     return (
         <>
-            <h2 className={styles.title}>Parcours</h2>
+            <h2 className={styles.title}>{t.title}</h2>
         <div className={styles.timelineContainer}>
             <div className={styles.timeline}>
                 {data.map((item, index) => (

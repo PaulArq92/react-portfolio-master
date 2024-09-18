@@ -5,13 +5,13 @@ import { LanguageContext } from "../../LanguageContext.jsx";
 import { translations } from "../../data/translations.js";
 
 export const About = () => {
-    const { language } = useContext(LanguageContext); // Utilisation du contexte
+    const { language } = useContext(LanguageContext);
 
-    const t = translations[language].about; // Obtenir les traductions du menu selon la langue
+    const t = translations[language].about;
 
     return (
         <section className={styles.container} id="about">
-            <h2 className={styles.titlePage}>Qui je suis ?</h2>
+            <h2 className={styles.titlePage}>{t.title}</h2>
             <div className={styles.content}>
                 <div className={styles.introduction}>{t.introduction}</div>
 

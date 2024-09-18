@@ -24,6 +24,10 @@
     "imageSrc": "skills/figma.png"
   },
   {
+    "title": "Ionic",
+    "imageSrc": "skills/ionic.png"
+  },
+  {
     "title": "SQL",
     "imageSrc": "skills/sql.png"
   },
@@ -42,5 +46,21 @@
   {
     "title": "Javascript",
     "imageSrc": "skills/javascript.webp"
+  },
+  {
+    "title": "IntelliJ",
+    "imageSrc": "skills/intelliJ.png"
+  },
+  {
+    "title": "Gitlab",
+    "imageSrc": "skills/gitlab.webp"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "skills/redux.png"
+  },
+  {
+    "title": "Contentful",
+    "imageSrc": "skills/contentful.svg"
   }
 ]
