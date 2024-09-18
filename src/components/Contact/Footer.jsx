@@ -13,21 +13,21 @@ export const Footer = () => {
         <footer id="contact" className={styles.container}>
             <div className={styles.collumnFooter}>
                 <ul className={styles.links}>
-                    <li className={styles.link}>
+                    <a href="mailto:p.arquier7@gmail.com" target="_blank" className={styles.link}>
                         <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon"/>
-                        <a href="mailto:p.arquier7@gmail.com">{t.email}</a>
-                    </li>
-                    <li className={styles.link}>
+                        <p>{t.email}</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/paul-arquier-283957195/" target="_blank" className={styles.link}>
                         <img
                             src={getImageUrl("contact/linkedinIcon.png")}
                             alt="LinkedIn icon"
                         />
-                        <a href="https://www.linkedin.com/in/paul-arquier-283957195/">{t.linkedin}</a>
-                    </li>
-                    <li className={styles.link}>
+                        <p>{t.linkedin}</p>
+                    </a>
+                    <a href="https://github.com/PauloLaPopo?tab=repositories" target="_blank" className={styles.link}>
                         <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon"/>
-                        <a href="https://github.com/PauloLaPopo?tab=repositories">{t.github}</a>
-                    </li>
+                        <p>{t.github}</p>
+                    </a>
                 </ul>
                 <ul className={styles.location}>
                     {t.location}

@@ -34,12 +34,12 @@
 .description {
     font-size: 25px;
     font-family: var(--font-roboto);
-    margin: 0 150px 52px 150px;
+    margin-bottom: 25px;
     text-align: center;
-    background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
-    -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
-    color: transparent; /* Rendre le texte transparent pour voir le dégradé */
-    line-height: 1.5; /* Ajuste la hauteur de ligne si nécessaire */
+    background: linear-gradient(to right, #ffffff, var(--color-primary));
+    -webkit-background-clip: text;
+    color: transparent;
+    line-height: 1.5;
 }
 
 .downloadBtn {

@@ -2,7 +2,7 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 120px;
+    margin-top: 80px;
     background-color: var(--color-bg);
     display: flex;
     justify-content: space-around;
@@ -42,12 +42,11 @@
     filter: grayscale(100%);
 }
 
-.link a {
+.link p, a {
     color: var(--color-primary);
     text-decoration: none;
     font-size: 12px;
     font-weight: 400;
-    letter-spacing: 1.5px;
 }
 
 .location {
@@ -77,6 +76,10 @@
     }
 
     .links {
-        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .link p {
+        font-size: 0;
     }
 }
