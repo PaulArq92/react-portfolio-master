@@ -10,7 +10,16 @@
     --font-roboto: "Roboto";
 
     /* Font-size */
-    --font-size-small: "10px";
-    --font-size-medium: "15px";
-    --font-size-medium-big: "18px";
+    --font-size-small: 10px;
+    --font-size-medium: 14px;
+    --font-size-large: 18px;
+
+    /* margin */
+    --margin-small: 10px;
+    --margin-small-medium: 20px;
+    --margin-medium: 30px;
+    --margin-large: 40px;
+    --margin-extra-large: 60px;
+
+    --margin-side: 10%;
 }

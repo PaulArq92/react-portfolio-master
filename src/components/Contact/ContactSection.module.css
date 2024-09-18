@@ -1,3 +1,5 @@
+@import "../../vars.css";
+
 .container {
     display: flex;
     flex-direction: column;
@@ -9,8 +11,8 @@
     border-radius: 10px;
     position: relative;
     height: 200px; /* Ajuste la hauteur selon tes besoins */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: var(--margin-side);
+    margin-right: var(--margin-side);
 }
 
 .verticalLine {
@@ -27,18 +29,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; /* Pour superposer correctement le contenu au-dessus de la ligne */
+    position: relative;
 }
 
 .title {
     font-size: 1.8em;
     margin-bottom: 30px;
     margin-top: 110px;
+    font-family: var(--font-roboto);
     color: var(--color-secondary);
-    position: relative; /* Pour s'assurer que le titre est au-dessus de la ligne */
+    position: relative;
 }
 
 .contactButton {
+    font-family: var(--font-roboto);
     text-decoration: none;
     background-color: var(--color-dark);
     color: var(--color-primary);
@@ -46,10 +50,11 @@
     font-size: var(--font-size-medium);
     padding: 25px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Ajout des transitions */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contactButton:hover {
-    transform: scale(1.05); /* Agrandissement léger au survol */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Augmentation de l'ombre portée au survol */
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: var(--color-text);
 }

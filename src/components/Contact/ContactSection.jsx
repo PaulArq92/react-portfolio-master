@@ -13,7 +13,11 @@ export const ContactSection = () => {
             <div className={styles.verticalLine}></div>
             <div className={styles.content}>
                 <h2 className={styles.title}>{t.title}</h2>
-                <a href="mailto:p.arquier7@gmail.com" target="_blank" className={styles.contactButton}>
+                <a
+                    href="mailto:p.arquier7@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.contactButton}>
                     {t.buttonLabel}
                 </a>
             </div>

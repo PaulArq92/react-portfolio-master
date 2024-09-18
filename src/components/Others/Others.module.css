@@ -6,8 +6,8 @@
     align-items: flex-start;
     justify-content: space-evenly;
     padding: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: var(--margin-side);
+    margin-right: var(--margin-side);
     margin-top: 50px;
     border-radius: 10px;
     color: white;

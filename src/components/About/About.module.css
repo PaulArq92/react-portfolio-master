@@ -1,10 +1,12 @@
+@import "../../vars.css";
+
 .container {
     position: relative;
     border-radius: 15px;
     padding-top: 40px;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: var(--margin-side);
+    margin-right: var(--margin-side);
 }
 
 .titlePage {
@@ -18,21 +20,22 @@
     font-size: 20px;
     font-family: var(--font-roboto);
     text-align: center;
-    background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
-    -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
-    color: transparent; /* Rendre le texte transparent pour voir le dégradé */
+    background: linear-gradient(to right, #ffffff, var(--color-primary));
+    -webkit-background-clip: text;
+    color: transparent;
     line-height: 1.5;
 }
 
 .introduction {
-    margin-bottom: 40px; /* Espacement entre l'introduction et les items */
+    font-family: var(--font-roboto);
+    margin-bottom: 40px;
 }
 
 .aboutItems {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; /* Aligne les containers à gauche */
+    justify-content: center;
 }
 
 .aboutItem {
@@ -60,19 +63,19 @@
 }
 
 .title {
-    background: linear-gradient(to right, #ffffff, var(--color-primary)); /* Dégradé de blanc à gris */
-    -webkit-background-clip: text; /* Clipping du fond pour que le dégradé s'applique au texte */
-    color: transparent; /* Rendre le texte transparent pour voir le dégradé */
+    background: linear-gradient(to right, #ffffff, var(--color-primary));
+    -webkit-background-clip: text;
+    color: transparent;
     font-family: var(--font-roboto);
     font-size: 1.2rem;
-    margin: 0; /* Supprime les marges par défaut */
+    margin: 0;
 }
 
 .description {
     font-family: var(--font-roboto);
     color: var(--color-primary);
     font-size: 0.9rem;
-    margin: 0; /* Supprime les marges par défaut */
+    margin: 0;
 }
 
 @media screen and (max-width: 830px) {

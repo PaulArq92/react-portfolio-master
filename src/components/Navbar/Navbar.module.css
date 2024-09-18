@@ -11,12 +11,17 @@
     border-bottom: var(--color-dark) 2px solid;
 }
 
-.title {
-    font-size: var(--font-size-small);
+.email {
+    font-size: var(--font-size-medium);
     font-weight: 400;
     text-decoration: none;
     color: var(--color-primary);
+    font-family: var(--font-roboto);
     margin-left: 10%;
+}
+
+.email:hover {
+    color: var(--color-text);
 }
 
 .menuBtn {
@@ -38,7 +43,8 @@
 }
 
 .menuItems a {
-    font-size: 18px;
+    font-family: var(--font-roboto);
+    font-size: var(--font-size-large);
     color: var(--color-primary);
     text-decoration: none;
     transition: color 0.3s;
@@ -53,7 +59,7 @@
         justify-content: flex-end;
     }
 
-    .title {
+    .email {
         display: none;
     }
 

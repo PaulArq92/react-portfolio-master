@@ -2,22 +2,23 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 80px;
     background-color: var(--color-bg);
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     width: 100vw;
-    padding: 15px 10%;
+    padding: 15px;
     gap: 10px;
 }
 
 .text p {
+    font-family: var(--font-roboto);
     font-size: 10px;
     font-weight: 400;
     letter-spacing: 2px;
 }
 
-.collumnFooter {
+.columnFooter {
     display: flex;
     flex-direction: column;
 }
@@ -43,6 +44,7 @@
 }
 
 .link p, a {
+    font-family: var(--font-roboto);
     color: var(--color-primary);
     text-decoration: none;
     font-size: 12px;

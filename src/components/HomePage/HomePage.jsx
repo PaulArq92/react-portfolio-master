@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 
 import styles from "./HomePage.module.css";
-import { getImageUrl } from "../../utils";
-import { translations } from "../../data/translations.js";
-import { LanguageContext } from "../../LanguageContext.jsx";
+import {getImageUrl} from "../../utils";
+import {translations} from "../../data/translations.js";
+import {LanguageContext} from "../../LanguageContext.jsx";
 
 export const HomePage = () => {
-    const { language } = useContext(LanguageContext);
+    const {language} = useContext(LanguageContext);
     const t = translations[language].homePage; // Obtenir les traductions du menu selon la langue
 
     const cvLink = language === "fr"
@@ -28,7 +28,7 @@ export const HomePage = () => {
                 <a
                     href={cvLink}
                     target="_blank"
-                    rel="noopener noreferrer"  // Ajoute la sécurité pour les nouveaux onglets
+                    rel="noopener noreferrer"
                     className={styles.downloadBtn}>
                     {t.download}
                 </a>

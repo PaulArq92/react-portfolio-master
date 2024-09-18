@@ -13,7 +13,11 @@ export const Navbar = () => {
 
     return (
         <nav className={styles.navbar}>
-            <a className={styles.title} href="mailto:p.arquier7@gmail.com">
+            <a
+                href="mailto:p.arquier7@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.email}>
                 {t.email}
             </a>
             <div className={styles.menu}>
@@ -32,12 +36,18 @@ export const Navbar = () => {
                     onClick={() => setMenuOpen(false)}
                 >
                     <li>
-                        <a href="https://www.linkedin.com/in/paul-arquier-283957195/" target="_blank" rel="noopener noreferrer">
+                        <a
+                            href="https://www.linkedin.com/in/paul-arquier-283957195/"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             {t.linkedin}
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/PauloLaPopo?tab=repositories" target="_blank" rel="noopener noreferrer">
+                        <a
+                            href="https://github.com/PauloLaPopo?tab=repositories"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             {t.github}
                         </a>
                     </li>

@@ -27,8 +27,8 @@ export const Timeline = () => {
                                     className={styles.timelineLogo}
                                 />
                                 <div className={styles.timelineDetails}>
-                                    <p className={styles.timelineDate}>{item.date}</p>
                                     <h3 className={styles.timelineTitle}>{item.title}</h3>
+                                    <p className={styles.timelineDate}>{item.date}</p>
                                     <p className={styles.timelineDescription}>{item.description}</p>
                                 </div>
                             </div>
