@@ -14,10 +14,13 @@ export const Timeline = () => {
         <>
             <h2 className={styles.title}>{t.title}</h2>
             <div className={styles.timelineContainer}>
-                <div className={styles.timeline}>
+                <div className={styles.timeline}></div>
+                <div className={styles.timelineItems}>
                     {data.map((item, index) => (
                         <div key={index} className={styles.timelineItem}>
-                            <div className={styles.timelineContent}>
+                            <div
+                                className={`${styles.timelineContent} ${index % 2 === 0 ? styles.left : styles.right}`}
+                            >
                                 <img
                                     src={getImageUrl(item.logoSrc)}
                                     alt={item.title}
@@ -26,9 +29,7 @@ export const Timeline = () => {
                                 <div className={styles.timelineDetails}>
                                     <p className={styles.timelineDate}>{item.date}</p>
                                     <h3 className={styles.timelineTitle}>{item.title}</h3>
-                                    <p className={styles.timelineDescription}>
-                                        {item.description}
-                                    </p>
+                                    <p className={styles.timelineDescription}>{item.description}</p>
                                 </div>
                             </div>
                         </div>

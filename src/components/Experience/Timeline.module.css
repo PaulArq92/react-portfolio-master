@@ -9,41 +9,38 @@
 
 /* Container principal de la timeline */
 .timelineContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: relative;
     padding: 50px 0;
     background-color: var(--color-bg);
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 /* Ligne centrale de la timeline */
 .timeline {
-    position: relative;
-    width: 2px;
-    background-color: var(--color-secondary);
-    margin: 0 auto;
-}
-
-.timeline::before {
-    content: "";
     position: absolute;
-    top: 0;
     left: 50%;
     width: 2px;
-    height: 100%;
     background-color: var(--color-secondary);
+    height: 100%;
     transform: translateX(-50%);
+}
+
+/* Conteneur des items de la timeline */
+.timelineItems {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 /* Style d'un item de la timeline */
 .timelineItem {
-    display: flex;
-    flex-direction: column;
     position: relative;
-    margin: 50px 0;
-    align-items: center;
+    display: flex;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* Contenu de chaque item */
@@ -53,8 +50,9 @@
     background-color: var(--color-dark);
     padding: 15px;
     border-radius: 8px;
-    max-width: 500px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
 }
 
 /* Logo de chaque étape */
@@ -67,11 +65,7 @@
     margin-right: 20px;
 }
 
-/* Détails de chaque étape */
-.timelineDetails {
-    text-align: left;
-}
-
+/* Date, titre et description */
 .timelineDate {
     font-size: 16px;
     font-weight: bold;
@@ -90,38 +84,121 @@
     color: #777;
 }
 
-/* Styles pour l'affichage bureau (alternance droite/gauche) */
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 831px) {
     .timelineItem {
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 50%;
-    }
-
-    .timelineItem:nth-child(odd) {
-        flex-direction: row-reverse;
-        justify-content: flex-end;
+        width: 100%;
     }
 
     .timelineContent {
+        width: 50%; /* Limiter la largeur à 50% pour la disposition en ligne */
         position: relative;
-        margin: 0 20px;
     }
 
-    .timelineItem:nth-child(odd) .timelineContent {
+    .timelineContent.left {
+        margin-left: calc(50% + 30px); /* Ajustement pour les grands écrans */
+        margin-right: 0;
+    }
+
+    .timelineContent.right {
+        margin-right: calc(50% + 30px); /* Ajustement pour les grands écrans */
+        margin-left: 0;
+    }
+    /* Positionnement alternatif pour les grands écrans */
+    .timelineContent.left {
+        align-self: flex-start; /* Alignement en haut pour la gauche */
+        margin-left: calc(50% + 30px); /* Ajustement à gauche */
+        text-align: left;
+    }
+
+    .timelineContent.right {
+        align-self: flex-end; /* Alignement en bas pour la droite */
+        margin-right: calc(50% + 30px); /* Ajustement à droite */
         text-align: right;
     }
+
 }
 
-/* Styles pour mobile et petit écran (contenu centré) */
+/* Responsive styles */
 @media screen and (max-width: 830px) {
-    .timelineContent {
-        flex-direction: column;
-        text-align: center;
-        max-width: 90%;
+    .timelineContainer {
+        position: relative;
+        padding: 50px 0;
+        background-color: var(--color-bg);
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
     }
 
+    /* Ligne centrale de la timeline */
+    .timeline {
+        position: absolute;
+        left: 50%;
+        width: 2px;
+        background-color: var(--color-secondary);
+        height: 100%;
+        transform: translateX(-50%);
+    }
+
+    /* Conteneur des items de la timeline */
+    .timelineItems {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Style d'un item de la timeline */
+    .timelineItem {
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    /* Contenu de chaque item */
+    .timelineContent {
+        display: flex;
+        align-items: center;
+        background-color: var(--color-dark);
+        padding: 15px;
+        border-radius: 8px;
+        max-width: 90%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /* Logo de chaque étape */
     .timelineLogo {
-        margin: 0 0 10px 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        border: 2px solid var(--color-secondary);
+        margin-right: 20px;
+    }
+
+    /* Détails de chaque étape */
+    .timelineDetails {
+        max-width: 300px;
+    }
+
+    /* Date, titre et description */
+    .timelineDate {
+        font-size: 16px;
+        font-weight: bold;
+        color: var(--color-primary);
+    }
+
+    .timelineTitle {
+        color: var(--color-secondary);
+        font-size: 18px;
+        font-weight: 600;
+        margin: 5px 0;
+    }
+
+    .timelineDescription {
+        font-size: 14px;
+        color: #777;
     }
 }
