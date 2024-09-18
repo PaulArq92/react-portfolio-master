@@ -35,9 +35,10 @@ export const translations = {
             title: "Une question ?",
             buttonLabel: "Contactez moi !",
         },
-        languagesAndHobbies: {
+        others: {
             titleLanguages: "Langues",
             titleHobbies: "Hobbies",
+            titleFormations: "Certifications et Formations"
         },
         footer: {
             location: "Situé à Paris, France",
@@ -83,9 +84,10 @@ export const translations = {
             title: "Any question ?",
             buttonLabel: "Contact me !",
         },
-        languagesAndHobbies: {
+        others: {
             titleLanguages: "Languages",
             titleHobbies: "Hobbies",
+            titleFormations: "Certifications and formations",
         },
         footer: {
             location: "Based in Paris, France",

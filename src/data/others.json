@@ -13,6 +13,12 @@
       { "name":  "Sports", "example": "Practicing football and gym, watch sports"},
       { "name":  "Musique", "example": "Listening music, going to music events, edit and create music with FL Studio"},
       { "name":  "Montage Vidéo", "example": "Create video with Adobe Premiere Pro"}
+    ],
+    "formations": [
+      { "name":  "Introduction à l'Intelligence Artificielle (IA)"},
+      { "name":  "Creative Thinking : Techniques et outils pour réussir"},
+      { "name":  "Psychologie sociale"},
+      { "name":  "Permis B"}
     ]
   },
   "en": {
@@ -29,6 +35,12 @@
       { "name":  "Sports", "example": "Practicing football and gym, watch sports"},
       { "name":  "Music", "example": "Listening music, going to music events, edit and create music with FL Studio"},
       { "name":  "Video Montage", "example": "Create video with Adobe Premiere Pro"}
+    ],
+    "formations": [
+      { "name":  "Introduction to Artificial Intelligence (AI)"},
+      { "name":  "Creative Thinking : Techniques and Tools for Success"},
+      { "name":  "Social Psychology"},
+      { "name":  "Driving License"}
     ]
   }
 }

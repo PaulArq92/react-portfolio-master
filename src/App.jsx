@@ -6,7 +6,7 @@ import {Footer} from "./components/Contact/Footer.jsx";
 import {LanguageProvider} from "./LanguageContext.jsx";
 import {SkillsCarousel} from "./components/Experience/SkillsCarousel.jsx";
 import {Timeline} from "./components/Experience/Timeline.jsx";
-import {LanguagesAndHobbies} from "./components/Others/LanguagesAndHobbies.jsx";
+import {Others} from "./components/Others/Others.jsx";
 import {ContactSection} from "./components/Contact/ContactSection.jsx";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
                 <SkillsCarousel />
                 <About/>
                 <Timeline />
-                <LanguagesAndHobbies />
+                <Others />
                 <ContactSection />
                 <Footer/>
             </div>

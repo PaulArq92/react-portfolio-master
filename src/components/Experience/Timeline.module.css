@@ -10,7 +10,7 @@
 /* Container principal de la timeline */
 .timelineContainer {
     position: relative;
-    padding: 50px 0;
+    padding: 20px 0;
     background-color: var(--color-bg);
     margin-left: 10%;
     margin-right: 10%;

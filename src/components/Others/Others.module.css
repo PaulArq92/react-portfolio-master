@@ -8,13 +8,13 @@
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 50px;
     border-radius: 10px;
     color: white;
+    background-color: var(--color-dark);
 }
 
 .languagesSection, .hobbiesSection {
-    background-color: var(--color-dark);
     padding: 15px;
 }
 
@@ -54,4 +54,10 @@
     color: var(--color-primary);
     font-style: italic;
     font-size: 14px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+    }
 }
