@@ -27,14 +27,14 @@ export const About = () => {
                         <p className={styles.description}>{t.fullstackDescription}</p>
                     </div>
                     <div className={styles.aboutItem}>
-                        <img src={getImageUrl("about/base-de-donnees.png")} alt="Data Analyst" className={styles.icon} />
+                        <img src={getImageUrl("about/base-de-donnees.png")} alt="Data Base" className={styles.icon} />
                         <h2 className={styles.title}>{t.dataTitle}</h2>
                         <p className={styles.description}>{t.dataDescription}</p>
                     </div>
                     <div className={styles.aboutItem}>
-                        <img src={getImageUrl("about/consultation.png")} alt="Tech Consultant" className={styles.icon} />
-                        <h2 className={styles.title}>{t.consultantTitle}</h2>
-                        <p className={styles.description}>{t.consultantDescription}</p>
+                        <img src={getImageUrl("about/software-development.png")} alt="Software Development" className={styles.icon} />
+                        <h2 className={styles.title}>{t.softwareTitle}</h2>
+                        <p className={styles.description}>{t.softwareDescription}</p>
                     </div>
                 </div>
             </div>
