@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
+import React, {useContext} from 'react';
 import styles from './Others.module.css';
 import othersData from "../../data/others.json";
-import { LanguageContext } from "../../LanguageContext.jsx";
+import {LanguageContext} from "../../LanguageContext.jsx";
 import {translations} from "../../data/translations.js";
 
 export const Others = () => {
-    const { language } = useContext(LanguageContext); // Utilisation du contexte
+    const {language} = useContext(LanguageContext); // Utilisation du contexte
 
     const t = translations[language].others;
     const data = othersData[language];
@@ -41,7 +41,12 @@ export const Others = () => {
                 <ul className={styles.hobbiesList}>
                     {data.formations.map((formation, index) => (
                         <li key={index} className={styles.hobbyItem}>
-                            <span className={styles.hobbyName}>{formation.name}</span>
+                            <a href={formation.link}
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               className={styles.hobbyName}>
+                                {formation.name}
+                            </a>
                         </li>
                     ))}
                 </ul>
