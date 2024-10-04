@@ -41,12 +41,16 @@ export const Others = () => {
                 <ul className={styles.hobbiesList}>
                     {data.formations.map((formation, index) => (
                         <li key={index} className={styles.hobbyItem}>
-                            <a href={formation.link}
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               className={styles.hobbyName}>
-                                {formation.name}
-                            </a>
+                            {formation.link != "" ?
+                                <a href={formation.link}
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   className={styles.hobbyName}>
+                                    {formation.name}
+                                </a>
+                                :
+                                <span className={styles.hobbyName}>{formation.name}</span>
+                            }
                         </li>
                     ))}
                 </ul>

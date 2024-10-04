@@ -49,6 +49,10 @@
     font-size: 17px;
 }
 
+.hobbyItem a:hover {
+    color: var(--color-text);
+}
+
 .languageLevel, .hobbyExample {
     font-family: var(--font-roboto);
     color: var(--color-primary);
