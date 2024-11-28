@@ -45,7 +45,7 @@ export const Navbar = () => {
                     </li>
                     <li>
                         <a
-                            href="https://github.com/PauloLaPopo?tab=repositories"
+                            href="https://github.com/PaulArq92?tab=repositories"
                             target="_blank"
                             rel="noopener noreferrer">
                             {t.github}
