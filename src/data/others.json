@@ -15,10 +15,13 @@
       { "name":  "Montage Vidéo", "example": "Create video with Adobe Premiere Pro"}
     ],
     "formations": [
-      { "name":  "Introduction à l'Intelligence Artificielle (IA)"},
-      { "name":  "Creative Thinking : Techniques et outils pour réussir"},
-      { "name":  "Psychologie sociale"},
-      { "name":  "Permis B"}
+      { "name":  "Introduction à l'Intelligence Artificielle (IA)", "link":  "https://coursera.org/verify/JKK7WUOHV5UA"},
+      { "name":  "Creative Thinking : Techniques et outils pour réussir", "link":  "https://coursera.org/verify/K8WKEXJ8TGG4"},
+      { "name":  "Psychologie sociale", "link":  "https://coursera.org/verify/4VGT8LZUD5CH"},
+      { "name":  "IBM - Projet Python pour le Data Engineering", "link":  "https://coursera.org/verify/67J7IGYPO6BU"},
+      { "name":  "IBM - Data Analyse avec Python", "link":  "https://coursera.org/verify/0KMX0BEH9X3R"},
+      { "name":  "Introduction au Software Engineer", "link":  "https://coursera.org/verify/ZU69I8P4TS88" },
+      { "name":  "Permis B", "link":  ""}
     ]
   },
   "en": {
@@ -37,10 +40,13 @@
       { "name":  "Video Montage", "example": "Create video with Adobe Premiere Pro"}
     ],
     "formations": [
-      { "name":  "Introduction to Artificial Intelligence (AI)"},
-      { "name":  "Creative Thinking : Techniques and Tools for Success"},
-      { "name":  "Social Psychology"},
-      { "name":  "Driving License"}
+      { "name":  "Introduction to Artificial Intelligence (AI)", "link":  "https://coursera.org/verify/JKK7WUOHV5UA"},
+      { "name":  "Creative Thinking : Techniques and Tools for Success", "link": "https://coursera.org/verify/K8WKEXJ8TGG4"},
+      { "name":  "Social Psychology", "link": "https://coursera.org/verify/4VGT8LZUD5CH"},
+      { "name":  "IBM - Python Project for Data Engineering", "link":  "https://coursera.org/verify/67J7IGYPO6BU"},
+      { "name":  "IBM - Data Analyse with Python", "link":  "https://coursera.org/verify/0KMX0BEH9X3R"},
+      { "name":  "Introduction to Software Engineer", "link":  "https://coursera.org/verify/ZU69I8P4TS88" },
+      { "name":  "Driving License", "link": ""}
     ]
   }
 }
